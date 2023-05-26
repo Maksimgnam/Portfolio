@@ -1,0 +1,107 @@
+.Projects {
+    width: 100%;
+    height: 86vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Card {
+    width: 50%;
+    height: 60%;
+    border-radius: 20px;
+    background-color: black;
+    border: 1px solid lightblue;
+    padding-left: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.CardsContainer {
+    width: 100%;
+    height: 86vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+
+
+}
+
+.Card__text {
+    font-size: 30px;
+    color: lightblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+input {
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: black;
+    border: 1px solid lightblue;
+    color: lightblue;
+    position: relative;
+    top: -20px;
+}
+
+.CardName {
+    font-size: 27px;
+    font-weight: 700;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+    font-size: 20px;
+    color: lightblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
+.stack {
+    font-size: 20px;
+    color: lightblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.about {
+    font-size: 17px;
+    color: lightblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.view {
+    width: 50px;
+    height: 40px;
+    background-color: black;
+    color: lightblue;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    float: right;
+    position: relative;
+    top: -180px;
+    left: -20px;
+
+
+}
+
+.Span {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
